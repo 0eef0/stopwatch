@@ -1,0 +1,46 @@
+div#watch{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: black 2px solid;
+    border-radius: 1rem;
+    background-color: cornflowerblue;
+
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+table#watchTable{
+    text-align: center;
+    width: 100%;
+    tr{
+        width: 80%;
+
+        td{
+            width: 12.5%;
+            h1{
+                width: 100%;
+            }
+        }
+    }
+    tr#watchDisplay{
+        background-color: white;
+        border: white 2px solid;
+        border-radius: 1rem;
+        td{
+            border: white 2px solid;
+            background-color: white;
+        }
+    }
+    button{
+        width: 12rem;
+        border-radius: 1rem;
+        background-color: red;
+        height: 2rem;
+        :active{
+            border: none;
+        }
+    }
+}

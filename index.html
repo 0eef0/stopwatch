@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/index.css">
+    
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div id="watch">
+        <table id="watchTable">
+            <tr id="watchDisplay">
+                <td colspan="2"><h1 id="hour">00</h1></td>
+                <td colspan="2"><h1>:</h1></td>
+                <td colspan="2"><h1 id="minute">00</h1></td>
+                <td colspan="2"><h1>:</h1></td>
+                <td colspan="2"><h1 id="second">00</h1></td>
+                <td colspan="2"><h1>.</h1></td>
+                <td colspan="2"><h1 id="millisecond">00</h1></td>
+            </tr>
+            <tr>
+                <td colspan="7"><button id="toggle" onclick="toggleClock()">Start</button></td>
+                <td colspan="7"><button id="stuff" onclick="doThings()">Reset</button></td>
+                <!--<td colspan="4"><button id="clicker" onclick="clickCount()">Clicks in 8 Seconds</button></td>-->
+            </tr>
+        </table>
+    </div>
+    <div id="laps">
+        <h3>Laps:</h3>
+        <table>
+            <tr>
+                <td><h4>Lap 1:</h4></td>
+                <td><p id="currentHour">00</p></td>
+                <td><p>:</p></td>
+                <td><p id="currentMinute">00</p></td>
+                <td><p>:</p></td>
+                <td><p id="currentSecond">00</p></td>
+                <td><p>.</p></td>
+                <td><p id="currentMillisecond">00</p></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
